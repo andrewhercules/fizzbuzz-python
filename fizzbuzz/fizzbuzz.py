@@ -10,7 +10,7 @@ def divisible_by_five(num):
     else:
         return num
 
-def test_divisible_by_three_or_five(num):
+def divisible_by_three_or_five(num):
     if (num % 15 == 0):
         return 'fizzbuzz'
     else:

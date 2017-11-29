@@ -13,5 +13,5 @@ def test_divisible_by_five():
     assert (fizzbuzz.divisible_by_five(8) == 8)
 
 def test_divisible_by_three_or_five():
-    assert (fizzbuzz.test_divisible_by_three_or_five(15) == 'fizzbuzz')
-    assert (fizzbuzz.test_divisible_by_three_or_five(21) == 21)
+    assert (fizzbuzz.divisible_by_three_or_five(15) == 'fizzbuzz')
+    assert (fizzbuzz.divisible_by_three_or_five(21) == 21)
