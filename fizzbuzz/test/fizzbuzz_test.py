@@ -9,3 +9,6 @@ def test_divisible_by_three():
 
 def test_divisible_by_five():
     assert (fizzbuzz.divisible_by_five(5) == 'buzz')
+
+def test_divisible_by_three_or_five():
+    assert (fizzbuzz.test_divisible_by_three_or_five(15) == 'fizzbuzz')

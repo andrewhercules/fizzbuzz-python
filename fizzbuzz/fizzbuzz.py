@@ -5,3 +5,7 @@ def divisible_by_three(num):
 def divisible_by_five(num):
     if (num % 5 == 0):
         return 'buzz'
+
+def test_divisible_by_three_or_five(num):
+    if (num % 15 == 0):
+        return 'fizzbuzz'
