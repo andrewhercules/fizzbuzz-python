@@ -6,3 +6,6 @@ import fizzbuzz
 
 def test_divisible_by_three():
     assert (fizzbuzz.divisible_by_three(3) == 'fizz')
+
+def test_divisible_by_five():
+    assert (fizzbuzz.divisible_by_five(5) == 'buzz')
