@@ -12,20 +12,16 @@ def test_divisible_by_five():
     assert (fizzbuzz.divisible_by_five(5) == True)
     assert (fizzbuzz.divisible_by_five(8) == False)
 
-def test_divisible_by_three_or_five():
-    assert (fizzbuzz.divisible_by_three_or_five(15) == True)
-    assert (fizzbuzz.divisible_by_three_or_five(21) == False)
-
 def test_is_divisible_by():
     assert (fizzbuzz.is_divisible_by(6, 3) == True)
     assert (fizzbuzz.is_divisible_by(17, 9) == False)
 
-def test_play_fizzbuzz():
-    assert (fizzbuzz.play_fizzbuzz(3) == 'fizz')
-    assert (fizzbuzz.play_fizzbuzz(5) == 'buzz')
-    assert (fizzbuzz.play_fizzbuzz(15) == 'fizzbuzz')
-    assert (fizzbuzz.play_fizzbuzz(21) == 'fizz')
-    assert (fizzbuzz.play_fizzbuzz(35) == 'buzz')
-    assert (fizzbuzz.play_fizzbuzz(60) == 'fizzbuzz')
-    assert (fizzbuzz.play_fizzbuzz(11) == 11)
-    assert (fizzbuzz.play_fizzbuzz(34) == 34)
+def test_generate_fizzbuzz_string_or_number():
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(3) == 'fizz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(5) == 'buzz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(15) == 'fizzbuzz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(21) == 'fizz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(35) == 'buzz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(60) == 'fizzbuzz')
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(11) == 11)
+    assert (fizzbuzz.generate_fizzbuzz_string_or_number(34) == 34)
